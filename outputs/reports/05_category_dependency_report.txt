@@ -1,0 +1,22 @@
+============================================================
+CATEGORY-LEVEL INSTRUCTOR DEPENDENCY ANALYSIS
+============================================================
+
+Categories ranked by Teacher-Course Rating correlation (higher = more instructor-dependent):
+
+         CourseCategory  TeacherCourseCorrelation  NumTeacherCoursePairs  FullyCrossedDesign
+       Machine Learning                  0.061093                     97               False
+        Web Development                  0.006063                     91               False
+      Digital Marketing                 -0.001687                     64               False
+                Finance                 -0.002776                     39               False
+               Business                 -0.003797                     91               False
+                 Design                 -0.010224                     83               False
+            Programming                 -0.025643                    128               False
+              Marketing                 -0.028227                    139               False
+Artificial Intelligence                       NaN                     40                True
+          Cybersecurity                       NaN                     45                True
+           Data Science                       NaN                     35                True
+     Project Management                       NaN                     35                True
+
+Saved: data\processed\category_instructor_dependency.csv
+Saved chart: 05_category_instructor_dependency.png

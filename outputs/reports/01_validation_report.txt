@@ -1,0 +1,56 @@
+============================================================
+STEP 1: LOADING RAW DATA
+============================================================
+Sheets found: ['Users', 'Teachers', 'Courses', 'Transactions']
+
+============================================================
+STEP 2: BASIC HEALTH CHECK PER TABLE
+============================================================
+
+--- Teachers ---
+Shape: 60 rows x 7 columns
+Columns: ['TeacherID', 'TeacherName', 'Age', 'Gender', 'Expertise', 'YearsOfExperience', 'TeacherRating']
+Total missing values: 0
+
+--- Courses ---
+Shape: 60 rows x 8 columns
+Columns: ['CourseID', 'CourseName', 'CourseCategory', 'CourseType', 'CourseLevel', 'CoursePrice', 'CourseDuration', 'CourseRating']
+Total missing values: 0
+
+--- Transactions ---
+Shape: 10000 rows x 7 columns
+Columns: ['TransactionID', 'UserID', 'CourseID', 'TransactionDate', 'Amount', 'PaymentMethod', 'TeacherID']
+Total missing values: 0
+
+--- Users ---
+Shape: 3000 rows x 5 columns
+Columns: ['UserID', 'UserName', 'Age', 'Gender', 'Email']
+Total missing values: 0
+
+============================================================
+STEP 3: PRIMARY KEY UNIQUENESS CHECK
+============================================================
+Teachers.TeacherID: 60 unique out of 60 rows -> OK - all unique
+Courses.CourseID: 60 unique out of 60 rows -> OK - all unique
+Users.UserID: 3000 unique out of 3000 rows -> OK - all unique
+Transactions.TransactionID: 10000 unique out of 10000 rows -> OK - all unique
+
+============================================================
+STEP 4: REFERENTIAL INTEGRITY CHECK
+============================================================
+All Transaction.TeacherID values exist in Teachers: True
+All Transaction.CourseID values exist in Courses: True
+All Transaction.UserID values exist in Users: True
+
+============================================================
+STEP 5: TEACHER-COURSE RELATIONSHIP STRUCTURE
+============================================================
+Distinct teachers linked per course - min: 7, max: 30, mean: 14.78
+Distinct courses linked per teacher - min: 7, max: 55, mean: 14.78
+
+Note: This confirms a many-to-many relationship between Teachers and Courses via Transactions. Analysis of teaching quality will use DISTINCT (TeacherID, CourseID) pairs to avoid double-counting, while raw Transactions will be used only for counting enrollments.
+
+============================================================
+STEP 6: SAVING CLEAN CSVs TO data/processed/
+============================================================
+Saved: teachers.csv, courses.csv, transactions.csv, users.csv

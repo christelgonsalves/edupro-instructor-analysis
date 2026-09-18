@@ -1,0 +1,30 @@
+============================================================
+LOADING CLEAN CSVs
+============================================================
+Teachers: (60, 7), Courses: (60, 8), Transactions: (10000, 7)
+
+============================================================
+STEP 1: COUNT ENROLLMENTS PER (TeacherID, CourseID) PAIR
+============================================================
+Distinct (TeacherID, CourseID) pairs found: 887
+Enrollment count per pair - min: 1, max: 107, mean: 11.27
+
+============================================================
+STEP 2: BUILD MASTER TEACHING-ENGAGEMENT TABLE
+============================================================
+Master table shape: (887, 16)
+Master table columns: ['TeacherID', 'CourseID', 'Enrollments', 'TeacherName', 'Age', 'Gender', 'Expertise', 'YearsOfExperience', 'TeacherRating', 'CourseName', 'CourseCategory', 'CourseType', 'CourseLevel', 'CoursePrice', 'CourseDuration', 'CourseRating']
+Total nulls after merge (should be 0): 0
+Saved: data\processed\teacher_course_master.csv
+
+============================================================
+STEP 3: BUILD TEACHER-LEVEL SUMMARY TABLE
+============================================================
+Teacher summary shape: (60, 9)
+Saved: data\processed\teacher_summary.csv
+
+============================================================
+STEP 4: BUILD COURSE-LEVEL SUMMARY TABLE
+============================================================
+Course summary shape: (60, 7)
+Saved: data\processed\course_summary.csv

@@ -1,0 +1,34 @@
+============================================================
+IN-EXPERTISE vs OUT-OF-EXPERTISE ANALYSIS
+============================================================
+Percentage of teaching engagements within stated expertise: 33.6%
+
+Course Rating: In-Expertise vs Out-of-Expertise
+                 mean       std  count
+InExpertise                           
+False        3.113447  1.193015    589
+True         3.116107  1.174060    298
+
+Difference (In-Expertise minus Out-of-Expertise): +0.003 rating points
+
+============================================================
+EXPERTISE AREA RANKING (by avg CourseRating of courses taught)
+============================================================
+
+              Expertise  AvgCourseRating  StdCourseRating  AvgTeacherRating  NumTeachingPairs  NumDistinctTeachers
+              Marketing         3.338889         1.057786          4.290000                 9                    1
+      Digital Marketing         3.332866         1.138950          2.931146               157                   11
+                 Design         3.161373         1.165503          2.069804                51                    4
+           Data Science         3.131410         1.092155          2.968718                78                    5
+                Finance         3.126154         1.162046          3.196703                91                    6
+Artificial Intelligence         3.119315         1.176664          3.047123                73                    6
+          Cybersecurity         3.075430         1.212135          3.717682               151                    9
+               Business         3.050286         1.144029          2.346571                35                    2
+        Web Development         3.023056         1.243793          2.390833                72                    5
+     Project Management         2.986462         1.387127          2.521385                65                    5
+       Machine Learning         2.945670         1.178328          4.525567                97                    5
+            Programming         2.847500         1.155913          3.950000                 8                    1
+
+Saved: expertise_ranking.csv
+Saved chart: 07a_in_vs_out_expertise.png
+Saved chart: 07b_expertise_ranking.png

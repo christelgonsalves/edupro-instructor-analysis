@@ -1,0 +1,13 @@
+CourseCategory,TeacherCourseCorrelation,NumTeacherCoursePairs,FullyCrossedDesign
+Machine Learning,0.06109289998206234,97,False
+Web Development,0.0060627719364920105,91,False
+Digital Marketing,-0.001686707046065518,64,False
+Finance,-0.0027763449083636417,39,False
+Business,-0.003796556644395648,91,False
+Design,-0.010223973426578409,83,False
+Programming,-0.025643415955082828,128,False
+Marketing,-0.028227045308796786,139,False
+Artificial Intelligence,,40,True
+Cybersecurity,,45,True
+Data Science,,35,True
+Project Management,,35,True

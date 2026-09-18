@@ -1,0 +1,61 @@
+CourseID,CourseName,CourseCategory,CourseLevel,CourseRating,DistinctTeachers,TotalEnrollments
+CR00001,Python Basics,Programming,Beginner,4.74,25,164
+CR00002,Java Programming,Programming,Intermediate,2.43,20,149
+CR00003,C++ for Beginners,Programming,Beginner,3.85,27,173
+CR00004,Advanced Python,Programming,Beginner,2.88,27,154
+CR00005,Full Stack Development,Programming,Beginner,1.28,29,166
+CR00006,Graphic Design Basics,Design,Advanced,2.72,15,156
+CR00007,UI/UX Design,Design,Advanced,2.61,16,178
+CR00008,Photoshop Mastery,Design,Advanced,1.52,15,158
+CR00009,Web Design Fundamentals,Design,Beginner,4.51,19,155
+CR00010,3D Modeling,Design,Advanced,4.45,18,180
+CR00011,Entrepreneurship 101,Business,Intermediate,2.69,16,151
+CR00012,Business Strategy,Business,Advanced,3.64,18,173
+CR00013,Finance for Startups,Business,Advanced,2.0,20,170
+CR00014,Sales Mastery,Business,Advanced,3.15,18,171
+CR00015,Leadership Essentials,Business,Beginner,1.96,19,168
+CR00016,Digital Marketing,Marketing,Intermediate,4.72,30,153
+CR00017,SEO Mastery,Marketing,Advanced,4.79,28,158
+CR00018,Social Media Marketing,Marketing,Advanced,2.01,28,163
+CR00019,Content Marketing,Marketing,Advanced,2.98,28,177
+CR00020,Email Marketing,Marketing,Intermediate,4.11,25,155
+CR00021,Data Analysis with Python,Data Science,Intermediate,3.6,7,196
+CR00022,Data Visualization,Data Science,Beginner,3.65,7,177
+CR00023,Machine Learning Fundamentals,Data Science,Intermediate,3.02,7,185
+CR00024,Big Data Analytics,Data Science,Advanced,2.57,7,166
+CR00025,Statistical Analysis,Data Science,Beginner,3.74,7,192
+CR00026,Intro to Machine Learning,Machine Learning,Intermediate,4.73,18,172
+CR00027,Neural Networks,Machine Learning,Advanced,1.81,17,152
+CR00028,Deep Learning,Machine Learning,Advanced,3.89,21,171
+CR00029,Natural Language Processing,Machine Learning,Beginner,1.13,20,155
+CR00030,Reinforcement Learning,Machine Learning,Intermediate,1.73,21,169
+CR00031,Network Security,Cybersecurity,Intermediate,1.91,9,160
+CR00032,Ethical Hacking,Cybersecurity,Advanced,2.38,9,163
+CR00033,Cybersecurity Fundamentals,Cybersecurity,Intermediate,3.93,9,167
+CR00034,Data Encryption,Cybersecurity,Intermediate,1.35,9,150
+CR00035,Cyber Threat Intelligence,Cybersecurity,Beginner,4.94,9,179
+CR00036,Agile Project Management,Project Management,Beginner,4.68,7,177
+CR00037,Scrum Essentials,Project Management,Intermediate,3.45,7,153
+CR00038,Risk Management,Project Management,Intermediate,4.84,7,158
+CR00039,Project Planning,Project Management,Advanced,1.23,7,167
+CR00040,Leadership in Projects,Project Management,Beginner,1.51,7,174
+CR00041,Financial Accounting,Finance,Beginner,2.47,8,166
+CR00042,Investment Strategies,Finance,Intermediate,4.1,8,183
+CR00043,Corporate Finance,Finance,Beginner,4.14,8,182
+CR00044,Personal Finance,Finance,Intermediate,2.75,7,161
+CR00045,Financial Modeling,Finance,Advanced,1.59,8,172
+CR00046,AI for Beginners,Artificial Intelligence,Beginner,1.2,8,140
+CR00047,Natural Language Processing,Artificial Intelligence,Intermediate,2.68,8,166
+CR00048,AI Ethics,Artificial Intelligence,Beginner,3.64,8,186
+CR00049,Deep Learning,Artificial Intelligence,Intermediate,3.11,8,163
+CR00050,Computer Vision,Artificial Intelligence,Beginner,4.55,8,174
+CR00051,HTML & CSS,Web Development,Advanced,1.3,20,171
+CR00052,JavaScript Mastery,Web Development,Beginner,2.2,15,154
+CR00053,React for Beginners,Web Development,Advanced,2.67,17,163
+CR00054,Backend Development with Node.js,Web Development,Beginner,3.32,21,178
+CR00055,Full-Stack Web Development,Web Development,Advanced,4.74,18,178
+CR00056,Google Ads Mastery,Digital Marketing,Advanced,3.15,13,148
+CR00057,SEO for E-commerce,Digital Marketing,Advanced,3.89,13,140
+CR00058,Social Media Strategy,Digital Marketing,Beginner,4.44,13,194
+CR00059,Affiliate Marketing,Digital Marketing,Intermediate,4.66,12,161
+CR00060,Content Creation,Digital Marketing,Beginner,2.14,13,165

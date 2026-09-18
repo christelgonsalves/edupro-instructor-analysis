@@ -1,0 +1,40 @@
+============================================================
+BUCKETING TEACHERS INTO RATING TIERS
+============================================================
+Teachers per tier:
+RatingTier
+Low     20
+Mid     20
+High    20
+Name: count, dtype: int64
+
+Rating range per tier:
+             min   max
+RatingTier            
+Low         1.05  2.92
+Mid         2.99  3.53
+High        3.54  4.97
+
+============================================================
+ENROLLMENT COMPARISON ACROSS TIERS
+============================================================
+
+            AvgEnrollmentsPerCourse  AvgEnrollmentInfluenceRatio  NumTeachers
+RatingTier                                                                   
+Low                        4.995177                     0.443072           20
+Mid                        3.270698                     0.290111           20
+High                      13.379930                     1.186800           20
+
+============================================================
+COURSE RATING COMPARISON ACROSS TIERS
+============================================================
+
+                mean       std  count
+RatingTier                           
+Low         3.161213  1.261052    305
+Mid         3.173567  1.185981    314
+High        2.991604  1.089250    268
+
+Saved: enrollment_by_tier.csv, course_rating_by_tier.csv
+Updated teacher_kpis.csv to include RatingTier column
+Saved chart: 06_enrollments_by_tier.png

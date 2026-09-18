@@ -1,0 +1,21 @@
+============================================================
+PLATFORM-LEVEL KPIs
+============================================================
+1. Average Teacher Rating: 3.125 (out of 5)
+2. Average Course Rating: 3.098 (out of 5)
+4. Experience Impact Score:
+   - Correlation(YearsOfExperience, TeacherRating): 0.598
+   - Correlation(YearsOfExperience, CourseRating):  -0.013
+   (Range is -1 to 1. Near 0 = no relationship. Positive = more experience associates with higher ratings.)
+
+============================================================
+PER-TEACHER KPIs (for leaderboard)
+============================================================
+Rating Consistency Index calculated for 60 teachers
+Index range: 0.387 to 0.585
+
+Platform average enrollments per course: 11.27
+Enrollment Influence Ratio range: 0.14 to 4.94
+
+Saved per-teacher KPI table: data\processed\teacher_kpis.csv
+Saved platform-level KPI table: data\processed\platform_kpis.csv
